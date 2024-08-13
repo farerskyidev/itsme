@@ -1,0 +1,43 @@
+/*
+Theme Name: Twenty Twenty-Three Child
+Template: twentytwentythree
+*/
+
+
+ body {
+    background-color: #be9999!important; 
+ }
+
+ .art-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px!important;  
+}
+
+.art-card {
+    width: calc(33.33% - 5px)!important; 
+    box-sizing: border-box; 
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+}
+
+.art-card img {
+    width: 100%;
+    height: auto;
+}
+
+.art-card h2 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.art-card p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
